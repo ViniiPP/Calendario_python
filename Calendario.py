@@ -1,6 +1,6 @@
 import calendar
 
-try: # É TIPO UM WHILE PORÉM MELHOR
+try: # É "TIPO UM WHILE" PORÉM DIFERENTE
     entrada = int(input("Digite um ano para o calendário: "))
     if (1 > entrada or entrada > 9999):  #CASO DO ERRO
         print("Escolha outro ano")
